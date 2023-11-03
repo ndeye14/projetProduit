@@ -1,0 +1,14 @@
+.carte {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 7px ;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* border: 2px solid rebeccapurple; */
+
+}
+.detail{
+    background-color: rgb(195, 170, 170) !important;
+    color: #000;
+    /* width: 30px; */
+}

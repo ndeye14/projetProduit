@@ -1,0 +1,13 @@
+<div class="container row carte">
+    <div *ngFor="let produit of Produits">
+        <div class="container card shadow-sm col-12 col-md-6" style="width: 18rem;">
+            <img src="{{produit.image}}" class="card-img-top" alt="..." style="height: 250px;width: 100%;">
+            <div class="card-body">
+                <h5 class="card-title">{{produit.titre}}</h5>
+                <p class="card-text">{{produit.description}}</p>
+
+                <a href="#" class="btn btn-ligth border detail" [routerLink]="['details']" (click)="storeProduit(produit)">detail</a>
+            </div>
+        </div>
+    </div>
+</div>
